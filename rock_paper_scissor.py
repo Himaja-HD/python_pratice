@@ -1,10 +1,3 @@
-"""
-#List
-student_name = ['Raju',10, 20.25, 'M']
-print(student_name)
-
-"""
-
 import random
 
 user_choice = input("Enter your choice- Rock, Paper, Scissor = ")
@@ -17,7 +10,7 @@ if user_choice == computer_choice:
 
 elif user_choice == 'Rock':
     if computer_choice == 'Paper':
-        print("Paper covers rock! Compyter wins!")
+        print("Paper covers rock! Computer wins!")
     else:
         print("Rock smashes scissor! You win!")
 
